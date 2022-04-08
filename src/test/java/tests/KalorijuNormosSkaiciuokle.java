@@ -39,7 +39,6 @@ public class KalorijuNormosSkaiciuokle {
         String input3 = "35";
         pages.KalorijuNormosSkaiciuokle.enterAgeToInput(input3);
 
-
         pages.KalorijuNormosSkaiciuokle.clickButtonToCount();
 
         String expectedOutput = "1830";
@@ -48,7 +47,6 @@ public class KalorijuNormosSkaiciuokle {
         actualOutput = pages.KalorijuNormosSkaiciuokle.getAfterButtonToCountClickText();
 
         Assert.assertEquals(actualOutput, expectedOutput);
-
     }
 
     @AfterClass

@@ -19,20 +19,16 @@ public class Skaiciuokles {
 
     public static void clickButtonToCount() {
         By locator = By.xpath("//*[contains(@class, 'field calculate-button')]");
-        //System.out.println("------ Labas");
         System.out.println(Common.getElement(locator).getAttribute("value"));
         Actions action = new Actions(Driver.driver);
         action.moveToElement(Common.getElement(locator));
         action.click();
         action.perform();
-//        Common.clickElement(locator);
-
     }
 
     public static String getAfterButtonToCountClickText() {
         By locator = By.xpath("//*[@id='fieldname1_1']");
         return Common.getElement(locator).getAttribute("value");
-
     }
 
 }

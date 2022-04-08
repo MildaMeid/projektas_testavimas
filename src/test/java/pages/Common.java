@@ -13,7 +13,6 @@ public class Common {
       Driver.driver.get(link);
   }
 
-
     public static WebElement getElement(By locator) { return Driver.driver.findElement(locator); }
 
     public static List<WebElement> getElements(By locator) {

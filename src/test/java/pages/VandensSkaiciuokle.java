@@ -11,7 +11,6 @@ public class VandensSkaiciuokle {
         Common.sendKeys(locator, value);
     }
 
-
     public static void clickButtonToCount1() {
         By locator = By.xpath("//*[contains(@class, 'field calculate-button')]");
         System.out.println(Common.getElement(locator).getAttribute("value"));

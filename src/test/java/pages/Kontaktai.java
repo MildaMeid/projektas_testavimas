@@ -32,17 +32,12 @@ public class Kontaktai {
 
     public static String getAfterClickButtonText1() {
         By locator = By.xpath("//*[@class='wpforms-confirmation-container-full wpforms-confirmation-scroll']");
-        // By locator = By.xpath("//*[@id='wpforms-confirmation-24990']");
-//        return Common.getElement(locator).getAttribute("value");
         return Common.getText(locator);
-
     }
 
     public static String getErrorTextAfterButton() {
         By locator = By.xpath("//*[@id='wpforms-24990-field_2-error']");
-        // By locator = By.xpath("//*[@id='wpforms-confirmation-24990']");
         return Common.getText(locator);
-//        return Common.getElement(locator).getAttribute("value");
-
     }
+
 }

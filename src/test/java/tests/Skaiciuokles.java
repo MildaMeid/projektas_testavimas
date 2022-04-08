@@ -47,7 +47,6 @@ public class Skaiciuokles {
         actualOutput = pages.Skaiciuokles.getAfterButtonToCountClickText();
 
         Assert.assertEquals(actualOutput, expectedOutput);
-
         }
 
     @AfterClass
