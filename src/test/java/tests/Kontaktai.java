@@ -71,7 +71,7 @@ public class Kontaktai {
         Assert.assertEquals(actualOutput1, expectedOutput1);
     }
 
-    @AfterClass
+    @AfterMethod
     public void quit() {
         Driver.quit();
     }
