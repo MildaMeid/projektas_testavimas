@@ -15,7 +15,7 @@ https://sportuojantys.lt
  - Ivedame varda
  - Ivedame e-mail
  - Ivedame klausima
- - Spaudziame mygtuka 'Siusti'
+ - Spaudziame mygtuka 'Pateikti'
  - Tikriname ar atspausdinta verte ir musu paduota verte atitinka
 3. https://sportuojantys.lt/kontaktai
  (Testuojame ar i kontaktu forma nesuvedus e-mail, kitus duomenis suvedus, paprasoma ivesti e-mail(privalomas laukas))
